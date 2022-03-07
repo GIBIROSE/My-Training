@@ -1,13 +1,12 @@
-package training.java.Method.assignment;
+package training.java.MethodSamples;
 
 public class MethodOverriding {
 
 	public static void main(String[] args) {
-		OffSeason off = new OffSeason();
-		off.totalAmount(1000, 2000);
-		off.discount();
+		AdditionResultDivisibility add = new AdditionResultDivisibility();
+		add.sumOfTwoNumbers(1000, 28);
 		
-
 	}
+	
 
 }
