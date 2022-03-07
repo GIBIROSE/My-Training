@@ -1,33 +1,22 @@
-package training.java.encapsulation;
+package training.java.inheritance.single;
 
 public class Student {
-	
-	private String name;
-	private int age;
-	
-	
-	public String getName() {
-		return name;
+
+	private String studentName;
+	private String studentID;
+
+	public void studentDetails() {
+		System.out.println("Student name is :" + studentName);
+		System.out.println("Student ID is: " + studentID);
+
 	}
-	
-	public void setName(String name) {
-		this.name = name;
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
 	}
-	
-	
-	public int getAge() {
-		return age;
+
+	public void setStudentID(String studentID) {
+		this.studentID = studentID;
 	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	
-	
-	
-	
-	
+
 }
-	
-	
-		
-	
