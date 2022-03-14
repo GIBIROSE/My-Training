@@ -1,9 +1,10 @@
-package trainingprograms.samples;
+package sampleexcelread;
 
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("helloworld!!!!!");
+		// TODO Auto-generated method stub
+		System.out.println("hi");
 
 	}
 
